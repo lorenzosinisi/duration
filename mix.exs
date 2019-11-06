@@ -6,7 +6,7 @@ defmodule Duration.MixProject do
     [
       app: :duration,
       version: @version,
-      elixir: "~> 1.9",
+      elixir: "~> 1.8",
       docs: [extras: ["README.md"], main: "readme", source_ref: "v#{@version}"],
       source_url: "https://github.com/lorenzosinisi/duration",
       description: description(),
